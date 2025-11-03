@@ -7,7 +7,7 @@ RUN npm ci --omit=dev
 COPY . .
 
 ENV NODE_ENV=production \
-    PORT=8081
-EXPOSE 8081
+    PORT=8080
+EXPOSE 8080
 
 CMD ["node", "app.js"]
